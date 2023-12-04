@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- cdn google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- cdn fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- foglio di stile css -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- inizio navbar -->
+
+    <nav id="navbar" class="navbar navbar-expand-lg bg-y sticky-top">
+        <div id="containerfluid" class="container-fluid bg-y">
+          <span class="navbar-brand" href="#"><img class="logo" id="logo" src="./Media/jet-black.png" alt=""></span>
+          
+            <i id="bars" class="fa-solid fa-bars text-b fa-2x d-lg-none d-block "data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"></i>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link-custom text-b" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-custom text-b" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link-custom text-b" href="#">Link</a>
+              </li>
+            </ul>
+            <div class="logo d-none d-lg-block"></div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- fine navbar -->
+
+    <!-- inizio header -->
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center text-center header vh-100">
+            <div class="col-11 col-md-8">
+                <h1 class="text-w">Presto.it</h1>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Cerca qualcosa sul nostro sito" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fine header -->
+
+    <!-- inizio sezione numeri incrementali -->
+    <div class="container-fluid my-5">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 text-center ">
+                <h2 class="number">I nostri numeri</h2>
+            </div>
+            <div class="col-12 d-flex justify-content-center  col-md-5">
+                <img class="caccia rounded-circle my-5 p-3 border border-5" src="./Media/Caccia.jpg" alt="">
+                
+            </div>
+            <div class="col-12  col-md-5">
+                <p class="lead"><span class="number">0</span>Prodotti venduti</p>
+                <p class="lead"><span class="number">100</span>Clienti soddisfatti</p>
+                <p class="lead"><span class="number">500</span>Recensioni</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- fine sezione numeri incrementali -->
+
+
+
+    <div style="height: 2000px"></div>
+
+
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- js custom -->
+    <script src="main.js"></script>
+  </body>
+</html>

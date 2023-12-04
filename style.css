@@ -1,0 +1,153 @@
+/* /*
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* *{
+    font-family:'Roboto', sans-serif ;
+}
+
+H1,H2,H3,H4,H5,.H1,.H2,.H3,.H4,.H5{
+    font-family: 'Comfortaa', sans-serif;
+
+}
+
+:root{
+    --y:rgb(255, 118, 5);
+    --b:rgb(23,23,23);
+    --w:rgb(233,233,233);
+
+}
+
+.text-y{
+    color: var(--y);
+
+}
+
+.text-b{
+    color: var(--b)
+}
+
+.text-w{
+    color: var(--w);
+}
+
+.bg-y{
+    background-color: var(--y);
+}
+
+.bg-b{
+    background-color: var(--b);
+}
+
+.bg-w{
+    background-color: var(--w);
+}
+
+.logo{
+    height: 50px;
+    width: 92.14px;
+}
+
+.navbar{
+    transition: 0.5s;
+    height: 86px;
+} */ 
+
+/* 
+google fonts
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+ *{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+:root{
+    --y: rgb(255, 118, 5);
+    --b: rgb(23,23,23);
+    --w: rgb(233,233,233);
+}
+
+.text-y{
+    color: var(--y);
+}
+
+.text-w{
+    color: var(--w);
+}
+
+.text-b{
+    color: var(--b);
+}
+
+.bg-y{
+    background-color: var(--y);
+}
+
+.bg-b{
+    background-color: var(--b);
+}
+
+.bg-w{
+    background-color: var(--w);
+}
+
+.logo{
+    height: 60px;
+    width: 34px;
+    transition: 0.5s;
+}
+
+#navbar{
+    transition: 0.5s;
+    height: 86px;
+}
+
+#containerfluid{
+    transition: 0.5s;
+}
+
+#bars{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.nav-link-custom{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.rotateLogo{
+    transform: rotate(90deg);
+}
+
+.rotate360{
+    transform: rotate(180deg);
+}
+
+
+.header{
+    background-image: linear-gradient(rgba(23,23,23,0.7), rgba(23,23,23,0.4)), url(./Media/2-FA-18-Superhornet-1013x573.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.number{
+    font-weight: 700;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.caccia{
+    height: 300px;
+    width: 300px;
+    my: -5px;
+    
+}
